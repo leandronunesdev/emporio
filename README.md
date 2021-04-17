@@ -27,7 +27,7 @@
 <h1 id="demo">Demonstração da aplicação</h1>
 
 <h1 align="center">
-  <img alt="EmporioDaCerveja" title="#EmporioDaCerveja" src="./assets/emporio.gif" />
+  <img alt="EmporioDaCerveja" title="#EmporioDaCerveja" src="./src/assets/emporio.gif" />
 </h1>
 
 <h1 id="pre-requisitos">Pré-requisitos</h1>
