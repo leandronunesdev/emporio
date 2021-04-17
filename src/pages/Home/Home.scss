@@ -1,0 +1,76 @@
+.categories {
+  margin-top: 160px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+  li {
+    border-right: black solid 1px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center; 
+  }
+}
+
+.categories li:last-child {
+  border-right: none;
+}
+
+.bebidas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardBebida {
+  margin: 20px;
+  padding: 20px;
+  max-width: 180px;  
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;    
+
+  img {
+    max-height: 176px;
+    max-width: 170px;
+  }
+
+  button {
+    background-color: var(--dark-orange);
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    width: 180px;      
+    
+    div {
+      background-color: whitesmoke;
+      padding: 5px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+    }
+
+    span {
+      color: whitesmoke;
+    }       
+  }
+
+  h1 {
+    font-size: 16px;
+  }  
+}
+
+.shop-bag {
+  padding-right: 5px;
+}
